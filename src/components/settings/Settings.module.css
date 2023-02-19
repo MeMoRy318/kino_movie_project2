@@ -1,0 +1,21 @@
+.settings{
+    position: relative;
+    z-index:1;
+}
+.settings__icon{
+font-size: 22px;
+    cursor: pointer;
+    padding-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+.settings__content_active{
+position: fixed;
+    top: 9.8%;
+    right: 0.2%;
+    height: 250px;
+    background: silver;
+    z-index: 0;
+    width: 200px;
+    transition-duration: .25s;
+}

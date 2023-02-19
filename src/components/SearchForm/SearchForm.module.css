@@ -1,0 +1,27 @@
+.searchForm{
+min-width: 40%;
+}
+.searchForm__input{
+    height: 40px;
+    padding-right: 40px;
+    background-color: #333;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+.searchForm label{
+    display: inline-block;
+    padding: 0 40px 0 20px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 5px;
+}
+.searchForm__btn{
+margin-left: 10px;
+    color: white;
+    background: #141414;
+}
+.settings__content{
+
+}

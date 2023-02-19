@@ -1,0 +1,46 @@
+.userInfo__login{
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+.userInfo__login:hover:after{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    border-bottom: #005381 1px solid;
+    top: 120%;
+    left: 0;
+}
+.userInfo__icon{
+    font-size: 22px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.userInfo{
+    position: relative;
+    width: 100%;
+}
+.userInfo__content{
+    position: fixed;
+    top: 10%;
+    right: 0.2%;
+    height:auto;
+    background: #aba9a9;
+    z-index: 3;
+    width: 10%;
+    transition-duration: .25s;
+    visibility: hidden;
+    font-size: 16px;
+}
+.userInfo__icon:hover .userInfo__content{
+    visibility: unset;
+}
+.userInfo__content_visibility{
+    visibility: hidden;
+}
+.userInfo__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

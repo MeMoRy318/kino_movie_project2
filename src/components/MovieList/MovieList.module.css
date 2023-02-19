@@ -1,0 +1,44 @@
+.movie{
+width: 18%;
+    cursor: pointer;
+}
+.movie:hover{
+    transform: translate(0,-1%);
+    transition-duration: .40s
+}
+.movie__colom{
+    display: flex;
+    flex-direction: column;
+}
+.movie__img{
+    width: 100%;
+}
+.movie__bg{
+    position: relative;
+    z-index: -1;
+    margin-bottom: 10px;
+
+
+}
+.movie__rating{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    display: inline-block;
+    font-size: 16px;
+    background: green;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.movie__title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: text;
+}
+.movie__release{
+    margin-bottom: 40px;
+    font-size: 16px;
+    cursor: text;
+}
